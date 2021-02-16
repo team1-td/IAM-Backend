@@ -1,0 +1,1 @@
+web: gunicorn imagerecognition.wsgi:application --log-file -
