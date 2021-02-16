@@ -57,9 +57,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "https://pedantic-newton-615678.netlify.app"
-]
+# CORS_ALLOWED_ORIGINS = [
+    # "https://pedantic-newton-615678.netlify.app"
+# ]
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'imagerecognition.urls'
 
