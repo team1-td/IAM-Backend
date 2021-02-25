@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'hh)73ixn)a4)kw8oa45f)l!)-5x9l4qe@id24mvfi04s00n-_)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["https://pedantic-newton-615678.netlify.app"]
 
 
 # Application definition
@@ -58,11 +58,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-    # "https://pedantic-newton-615678.netlify.app"
-# ]
-
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOWED_ORIGINS = [
+    "https://pedantic-newton-615678.netlify.app"
+]
 
 ROOT_URLCONF = 'imagerecognition.urls'
 
