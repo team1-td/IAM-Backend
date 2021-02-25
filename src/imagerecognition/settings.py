@@ -41,7 +41,6 @@ INSTALLED_APPS = [
 
     # personal apps
     'users',
-    'crispy_forms',
 
     # third party apps
     'corsheaders',
